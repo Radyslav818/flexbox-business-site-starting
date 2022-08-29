@@ -1,0 +1,158 @@
+/* Universal Styles */
+
+html {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    background-color: #7C60F7;
+}
+
+body {
+    /* color: #3B2E75; */
+    text-align: center;
+}
+
+div {
+    display: block;
+}
+
+h2, h3, h4 {
+    margin: 0;
+    padding: 10px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+/* Header */
+
+header {
+    background-color: #1E0B75;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: underline;
+}
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+.main-nav {
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+
+li {
+    display: list-item;
+}
+
+.main-nav li {
+    margin-left: 36px;
+}
+
+
+/* <!-- main --> */
+
+.background-img {
+    background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/03e533bf-8b1d-463f-9813-9a597aafb280/bvlatuR/std/4096x2560/M3-Homepage-Desktop-LHD');
+    min-height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-content {
+    text-align: center;
+}
+
+.home-content h1 {
+    font-size: 3.5rem;
+    padding-top: 10%;
+    margin: 0 42px;
+}
+
+.home-content h2 {
+    font-size: 2rem;
+    margin: 10px 0 42px;
+}
+
+/* <!-- Portfolio --> */
+
+.portfolia h2 {
+    font-size: 1.5rem;
+}
+.item img{
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    display: block;
+}
+
+.item span {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* <!-- team --> */
+
+.team {
+    background-color: #3B2E75;
+    padding-top: 70px;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.teammate img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+}
+
+p {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+<!-- Quotes Section --> */
+
+.contact {
+    background: #7C60F7;;
+    text-align: center;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    color: white;
+    background: #1E0B75;
+    padding: 0.5rem;
+}
